@@ -1,0 +1,8 @@
+#Read Dicom program
+
+import dicom
+print 'Lets import your file!'
+
+ ds = dicom.read_file("CTImage_00001.dcm")
+ 
+ print 'Import Success!!'
